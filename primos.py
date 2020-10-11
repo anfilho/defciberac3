@@ -5,7 +5,7 @@ from math import sqrt
 app = Flask(__name__)
 
 @app.route('/')
-def nao_entre_em_panico():
+def primos():
     limite = 100
 
     c = 1
